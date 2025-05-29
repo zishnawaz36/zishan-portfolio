@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="flex justify-between items-center w-full h-20 text-white bg-gradient-to-b from-black to-gray-800 px-4 fixed z-50">
+            <div className="flex justify-between items-center w-full h-16 text-white bg-gradient-to-b from-black to-gray-800 px-4 fixed z-50">
                 <div className="text-2xl font-signature text-blue-300" style={{ fontFamily: 'Dancing Script, cursive' }}>
                     Zeeshan Nawaz
                 </div>

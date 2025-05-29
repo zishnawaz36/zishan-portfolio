@@ -13,6 +13,12 @@ function About() {
                     </p>
                     <br />
                     <p className="text-lg">
+                        I have gained practical experience through internships at <strong>Digisamaksh Private Limited</strong> and <strong>Theody Svadhyay Trailblazer LLP</strong>. 
+                        At Digisamaksh, I contributed to building a modern food delivery UI using React, implementing performance-boosting techniques like lazy loading and Redux Toolkit for efficient state management. 
+                        At Theody, I worked as a full-stack developer, building a portal with Node.js and Tailwind CSS, and focused on securing APIs, which earned me a performance bonus for my contributions.
+                    </p>
+                    <br />
+                    <p className="text-lg">
                         I’ve built full-stack applications such as an <strong>Online Food Ordering App</strong> with Razorpay integration, JWT-based authentication, and real-time Google Maps tracking, and a <strong>Multi-lingual Document Summarization Tool</strong> using React, Flask, MarianMT, and BART for translation and summarization.
                         These projects showcase my ability to develop scalable, secure, and user-friendly web applications.
                     </p>

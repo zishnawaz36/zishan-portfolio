@@ -20,17 +20,22 @@ function Certificate() {
         {
             id: 4,
             name: "Full Stack Web Development",
-            path: "76", 
+            path: "https://app.100xdevs.com/certificate/verify/WTFAFPUW",
         },
         {
             id: 5,
             name: "Internship Completion Certificate at Digisamaksh Private Limited",
-            path: "../../public/Digi certificate.pdf", 
+            path: "/Digi certificate.pdf", // public folder
         },
         {
             id: 6,
             name: "Internship Completion Certificate at Theody Svadhyay Trailblazer LLP",
-            path: "../../public/Internship.Certificate (1).pdf", 
+            path: "/Internship.Certificate (1).pdf", // public folder
+        },
+        {
+            id: 7,
+            name: "Zeeshan Nawaz Resume",
+            path: "/Zeeshan_Nawaz_Resume_dev.pdf", // public folder
         },
     ];
 
