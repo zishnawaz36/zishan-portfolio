@@ -1,7 +1,20 @@
+# dependencies
+node_modules
+
+# build outputs
+dist
+build
+.next
 .vercel
+
+# environment
+.env
 backend/.env
 myportfolio/.env
-backend.zip
 
+# system
+.DS_Store
+Thumbs.db
 
-
+# cache
+.cache

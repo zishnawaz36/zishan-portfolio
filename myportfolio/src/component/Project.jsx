@@ -3,7 +3,7 @@ import restaurant from "../assets/restaurant.png";
 import printify from "../assets/prinitify.png";
 import cryptoCoin from "../assets/Bitcoin-PNG-Transparent-HD-Photo.png";
 import Summeryandtranslation from "../assets/project1.png";
-
+import Hotel from "../assets/Hotel";
 function Project() {
     const [selectedProject, setSelectedProject] = useState(null);
 
@@ -16,6 +16,7 @@ function Project() {
             description: "This project allows users to Summarize and Translate documents using NLP after registering and logging in. The frontend is built with React, providing an interactive user interface, while the backend uses Node.js with Express.js to handle API requests and manage the summarization and translation logic.",
             demoUrl: "https://github.com/zishnawaz36/Document-Summarization-Translation"
         },
+    
         {
             id: 2,
             src: restaurant,
@@ -23,6 +24,15 @@ function Project() {
             style: "shadow-orange-500",
             description:"The online food ordering application is a comprehensive platform built with React.js, Tailwind CSS, Redux, Redux Toolkit, and Node.js with Express. It offers role-based access where Managers can add new restaurants, manage addresses, and update menus, while Admins have full access to view, edit, and delete data. Users are required to log in to access the payment section and order food from various restaurants. Authentication is secured using JWT tokens, and passwords are hashed with bcrypt to ensure user safety. The cart functionality, which allows users to add and remove items, is implemented using Redux for efficient state management. Additionally, the application includes a live location feature, enabling users to input their delivery address or track their orders in real-time. Payments are processed securely using Razorpay, and users can view an invoice for their order, including delivery and item details. Overall, this platform combines robust features, security measures, and a smooth user experience for both admins and end users.",
             demoUrl: "https://github.com/zishnawaz36/Online-Food-Application-final"
+        },
+        {
+            id: 5,
+            src: Hotel,
+            title: "Hotel Management",
+            style: "shadow-orange-500",
+            description: "A full-stack Hotel Management platform that enables users to register, log in, and manage hotel bookings efficiently. The frontend is built with React, offering a responsive and interactive UI, while the backend uses Node.js and Express.js to handle API requests, manage booking logic, and ensure secure authentication. Optimized for performance and scalability.",
+            demoUrl: "https://github.com/zishnawaz36/Booking-Hotel"
+
         },
         
         {
@@ -40,7 +50,8 @@ function Project() {
             style: "shadow-purple-500",
             description: "A cryptocurrency tracking application that provides real-time data on the value of various cryptocurrencies. Users can see price fluctuations, value in INR, EUR, and USD, as well as market rank. This project utilizes React and Next.js for the frontend and REST APIs for data fetching.",
             demoUrl:"https://github.com/zishnawaz36/CryptoCoin"
-        }
+        },
+        
     ];
 
     const handleDescriptionClick = (project) => {
